@@ -5,7 +5,7 @@ function VideoFeed() {
   return (
     <div className="camera__container">
       <img
-        src="http://localhost:8000/video_feed"
+        src="https://rpl-production.up.railway.app/video_feed"
         width="100%"
         className="img-thumbnail"
       />
