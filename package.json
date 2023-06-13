@@ -50,5 +50,6 @@
   },
   "devDependencies": {
     "eslint-plugin-react": "^7.32.2"
-  }
+  },
+  "proxy": "https://rpl-production.up.railway.app/"
 }
