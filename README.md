@@ -1,98 +1,94 @@
-🧑‍💼 Employee
+# 🧑‍💼 Employee
 
-Employee Management UI dengan fitur Login dan Face Recognition — dibuat dengan React dan pustaka pendukung untuk deteksi wajah.
+**Employee Management UI** dengan fitur **Login** dan **Face Recognition** — dibuat menggunakan **React** dan pustaka pendukung untuk deteksi wajah.
 
+---
 
-🚀 Fitur
+## 🚀 Fitur
 
-🧑‍💻 Halaman Login Karyawan
+- 🧑‍💻 Halaman **Login Karyawan**
+- 📸 **Face Recognition / Face Detection** saat login atau verifikasi
+- 🎨 UI modern menggunakan **React + SCSS**
+- 📦 Integrasi dengan library:
+  - `react-webcam`
+  - `react-use-face-detection`
 
-📸 Face Recognition / Face Detection saat login atau verifikasi
+> **Catatan:** Fitur lengkap masih dapat dikembangkan setelah kode direview lebih detail.
 
+---
 
-🎨 UI modern menggunakan React + SCSS
-
-📦 Integrasi dengan library react-webcam, react-use-face-detection
-
-Catatan: Fitur lengkap bisa ditambah setelah kode dibuka/di-review lebih detail.
-
-
-🛠️ Teknologi
+## 🛠️ Teknologi
 
 Project ini menggunakan:
 
-Teknologi	Keterangan
-React	UI library JavaScript
-SCSS	Styling modular
-react-webcam	Akses webcam untuk face capture
-react-use-face-detection	Hook untuk deteksi wajah
-npm	Package manager
+| Teknologi | Keterangan |
+|---------|------------|
+| React | UI library JavaScript |
+| SCSS | Styling modular |
+| react-webcam | Akses webcam untuk face capture |
+| react-use-face-detection | Hook untuk deteksi wajah |
+| npm | Package manager |
 
-⚙️ Setup dan Instalasi
+---
+
+## ⚙️ Setup dan Instalasi
 
 Sebelum mulai, pastikan sudah terinstall:
 
-📌 Node.js (versi 14+)
+- 📌 **Node.js** (versi 14+)
+- 📌 **npm** atau **yarn**
 
-📌 npm atau yarn
+---
 
+### 🧩 Clone Repository
 
-🧩 Clone
+```
 git clone https://github.com/joketoyou24/Employee.git
 cd Employee
+```
 
-📦 Install dependensi
+# 📦 Install Dependensi
+
+Menggunakan npm:
+```
 npm install
-
-
-atau jika pakai yarn:
-
+atau menggunakan yarn:
 yarn install
+```
+# ▶️ Menjalankan Proyek (Development)
 
-
-▶️ Menjalankan Proyek (Development)
-
-Setelah install selesai:
-
+Setelah proses instalasi selesai, jalankan:
+```
 npm start
-
-
 atau
-
 yarn start
+```
 
-
-Aplikasi akan terbuka di browser biasanya di:
-
+Aplikasi akan berjalan dan dapat diakses melalui browser di:
+```
 http://localhost:3000
-
-
-🧪 Menggunakan Fitur Face Recognition
+```
+# 🧪 Menggunakan Fitur Face Recognition
 
 Berikan izin akses webcam saat diminta oleh browser.
 
-Arahkan wajah ke kamera sampai terdeteksi.
+Arahkan wajah ke kamera hingga terdeteksi.
 
-Sistem akan memproses deteksi wajah (fungsi utilitas dari react-use-face-detection).
-
-Perlu backend / model face recognition terpisah untuk verifikasi wajah yang lebih rumit — jika belum ada, placeholder deteksi bisa dimodifikasi sesuai kebutuhan.
+Sistem akan memproses deteksi wajah menggunakan react-use-face-detection.
 
 
-📌 Notes
+# ❓ Bantuan & Kontribusi
 
-Fitur seperti “API backend login” mungkin belum terintegrasi atau perlu disesuaikan.
+Kontribusi sangat terbuka 🚀
 
-Penanganan error kamera dan UI responsif perlu ditambahkan.
+Langkah kontribusi:
 
-Konten ini berdasarkan kode yang terlihat & paket yang dipakai di package.json.
+Fork repository ini
 
+Buat branch baru (feature/awesome-feature)
 
-❓Bantuan & Kontribusi
+Commit perubahan
 
-Jika kamu ingin berkontribusi:
+Push ke branch
 
-Fork repositori ini.
-
-Buat branch baru (feature/awesome-feature).
-
-Push perubahanmu dan buat Pull Request.
+Buat Pull Request
